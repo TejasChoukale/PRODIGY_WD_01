@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Responsive Landing Page</title>
+</head>
+
+<body>
+    <nav class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#firstpage">About</a>
+        <a href="#secondpage">Services</a>
+        <a href="#thirdpage">Portfolio</a>
+        <a href="#fourthpage">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+
+    <div class="content" id="home">
+        <h1>Welcome to our Landing Page!</h1>
+        <p>This is a demo page with a fixed navigation menu.</p>
+        <p>Scroll down to see the effect on the navigation menu.</p>
+    </div>
+
+    <div class="content" id="firstpage">
+        <h1>About Us</h1>
+        <p>This section is about us.</p>
+    </div>
+
+    <div class="content" id="secondpage">
+        <h1>Our Services</h1>
+        <p>This section describes our services.</p>
+    </div>
+
+    <div class="content" id="thirdpage">
+        <h1>Our Portfolio</h1>
+        <p>This section shows our portfolio.</p>
+    </div>
+
+    <div class="content" id="fourthpage">
+        <h1> Our Contact</h1>
+        <p>This section provides contact information.</p>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
