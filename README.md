@@ -14,7 +14,7 @@ JavaScript
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/your-username/responsive-landing-page.git
+git clone https://tejaschoukale.github.io/PRODIGY_WD_01/
 Navigate to the project directory:
 bash
 Copy code
